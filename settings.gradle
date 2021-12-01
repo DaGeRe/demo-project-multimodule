@@ -1,0 +1,5 @@
+rootProject.name = 'demo-multimodule'
+
+include 'base-module'
+include 'using-module'
+
