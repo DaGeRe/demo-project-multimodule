@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 }
 
-group = 'de.dagere.peass.base-module'
+group = 'de.dagere.peass.base'
 version = '0.0.1-SNAPSHOT'
 
 repositories {
@@ -15,6 +15,6 @@ test {
 }
 
 dependencies {
-	implementation project(':base-module')
+	implementation project(':base')
 	testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 }
